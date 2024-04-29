@@ -1,3 +1,4 @@
+
 # Simple Register Page for TrinityCore/AzerothCore/AshamaneCore/CMangos
 
 With this script, You can make a website for your game server.
@@ -7,13 +8,14 @@ Support : [AzerothCore](http://azerothcore.org), [TrinityCore](http://TrinityCor
 
 ## Requirement : PHP >= 7.0
 
-Enable gmp, gd, soap, mbstring, pdo and pdo-mysql.
+Enable **[gmp](https://www.google.com/search?client=firefox-b-d&q=enable%20gmp%20extension%20php%207)**, **[gd](https://www.google.com/search?client=firefox-b-d&q=enable%20gd%20extension%20php%207)**, **[soap](https://www.google.com/search?client=firefox-b-d&q=enable%20soap%20extension%20php%207)**, **[mbstring](https://www.google.com/search?client=firefox-b-d&q=enable%20mbstring%20extension%20php%207)**, **[pdo](https://www.google.com/search?client=firefox-b-d&q=enable%20pdo%20extension%20php%207)** and **[pdo-mysql](https://www.google.com/search?client=firefox-b-d&q=enable%20pdo-mysql%20extension%20php%207)**.
 
 # Installation
 
+- Install requirments.
  - Download project & unzip.
  - Go to `application/config/` folder and change `config.php.sample` file name to `config.php`
- - Open the config file and set your server data.
+ - Open the config file and set your server data. If the "Image Captcha" type is used, then the GD2 module for PHP must be installed.
  - Enjoy that.
 
 # Debug
@@ -24,10 +26,10 @@ If you got a blank screen, You can enable `debug_mode` in the config file.
 
  1. Register Page (Support Vanilla/TBC/WotLK/MoP/WoD/Legion/BFA)
  2. Online Players Status (Multi-Realm support).
- 3. Show TOPs by Playtime, Kills, Honor Point, Arena Point, Arena Team (Multi-Realm support).
+ 3. Show TOPs by Playtime, Kills, Honor Point, Arena Point, and Arena Team (Multi-Realm support).
  4. How to connect Page.
  5. Contact us page.
- 6. Multiple template (Light, Icecrown, Kaelthas, Advance, Battle for Azeroth).
+ 6. Multiple templates (Light, Icecrown, Kaelthas, Advance, Battle for Azeroth).
  7. Change Password (4/10/2019).
  8. Restore Password (5/31/2019).
  9. Vote System (4/03/2020).
@@ -118,7 +120,7 @@ English/Persian by [Amin.MasterkinG](https://github.com/masterking32)
 
 Italian by [Helias](https://github.com/helias)
 
-Chinese-simplified/Chinese-traditional by [Coolzoom](https://github.com/coolzoom)
+Chinese-simplified/Chinese-traditional by [Coolzoom](https://github.com/coolzoom), [oiuv](https://github.com/oiuv)
 
 Swedish by [Kitzunu](https://github.com/Kitzunu)
 
@@ -129,3 +131,5 @@ German by [DuelistRag3](https://github.com/DuelistRag3)
 Spanish by [xjose93](https://github.com/xjose93)
 
 Korean by [KOREAFTP](https://github.com/KOREAFTP)
+
+Russian by [Haeniken](https://github.com/Haeniken)
